@@ -12,3 +12,10 @@ make install  #installs everything and creates the environment
 ```
 
 Then in the jupyter notebook you can do whatever you want.
+Add any classes or functions to the `/scripts` folder as you would in a package. 
+Then in the notebook you can do:
+```python
+from scripts import *
+```
+and all the functions and classes will be available to you inside the notebook
+
