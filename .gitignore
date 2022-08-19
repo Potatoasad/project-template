@@ -16,6 +16,7 @@ __pycache__/
 *.pdf
 *.synctex.gz
 *.toc
+/jupyter
 
 # C extensions
 *.so
