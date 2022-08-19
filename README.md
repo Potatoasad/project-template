@@ -21,5 +21,7 @@ Then in the notebook you can do:
 ```python
 from scripts import *
 ```
-and all the functions and classes will be available to you inside the notebook. This keeps your notebook relatively clean and free of a cascade of initial function defintions
+and all the functions and classes will be available to you inside the notebook. This keeps your notebook relatively clean and free of a cascade of initial function defintions. 
+
+Simply restart the notebook kernel and any changes you have made to `/scripts` will be updated. 
 
