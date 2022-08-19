@@ -5,17 +5,21 @@ Here's a simple template with a Makefile. This gives you:
 2. Allows you to work on a package inside the `\scripts` folder, where you can save functions/classes you want to use inside the jupyter notebook (this keeps your notebook relatively clean and free of a cascade of initial function defintions)
 
 ## Usage
+First add whatever packages you will need inside the `requirements.txt`
 
+Then:
 ```bash
 make install  #installs everything and creates the environment
-./jupyter lab # launches jupyter lab, you could do ./jupyter notebook too
+./jupyter lab # launches jupyter lab in that environment, you could do ./jupyter notebook too
 ```
 
 Then in the jupyter notebook you can do whatever you want.
+
+#### Saving useful functions and classes
 Add any classes or functions to the `/scripts` folder as you would in a package. 
 Then in the notebook you can do:
 ```python
 from scripts import *
 ```
-and all the functions and classes will be available to you inside the notebook
+and all the functions and classes will be available to you inside the notebook. This keeps your notebook relatively clean and free of a cascade of initial function defintions
 
